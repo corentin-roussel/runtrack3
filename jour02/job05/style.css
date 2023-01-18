@@ -1,0 +1,13 @@
+body {
+    height: 4096px;
+    margin: 0;
+    padding: 0;
+}
+
+#barre {
+    width: 0;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    background-color: red;
+}
