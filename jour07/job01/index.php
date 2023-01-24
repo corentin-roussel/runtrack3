@@ -1,0 +1,46 @@
+<?php
+
+?>
+
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="index.php">Inscription</a></li>
+                <li><a href="index.php">Connexion</a></li>
+                <li><a href="index.php">Rechercher</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <label for="">Femme</label><input type="radio" name="sex">
+        <label for="">Homme</label><input type="radio" name="sex">
+        <label for="">Ne se prononce pas</label><input type="radio" name="sex">
+        <label for="">Prénom</label><input type="text">
+        <label for="">Nom</label><input type="text">
+        <label for="">Adresse</label><input type="text">
+        <label for="">E-mail</label><input type="email">
+        <label for="">Mot de passe :</label><input type="password">
+        <label for="">Conf de mot de passe :</label><input type="password">
+        <label for="">Informatique</label><input type="checkbox">
+        <label for="">Sport</label><input type="checkbox">
+        <label for="">Voyages</label><input type="checkbox">
+        <label for="">Lecture</label><input type="checkbox">
+        <input type="submit" value="Envoyer !">
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
