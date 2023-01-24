@@ -24,20 +24,22 @@
         </nav>
     </header>
     <main>
-        <label for="">Femme</label><input type="radio" name="sex">
-        <label for="">Homme</label><input type="radio" name="sex">
-        <label for="">Ne se prononce pas</label><input type="radio" name="sex">
-        <label for="">Prénom</label><input type="text">
-        <label for="">Nom</label><input type="text">
-        <label for="">Adresse</label><input type="text">
-        <label for="">E-mail</label><input type="email">
-        <label for="">Mot de passe :</label><input type="password">
-        <label for="">Conf de mot de passe :</label><input type="password">
-        <label for="">Informatique</label><input type="checkbox">
-        <label for="">Sport</label><input type="checkbox">
-        <label for="">Voyages</label><input type="checkbox">
-        <label for="">Lecture</label><input type="checkbox">
-        <input type="submit" value="Envoyer !">
+        <form action="">
+            <label for="">Femme</label><input type="radio" name="sex">
+            <label for="">Homme</label><input type="radio" name="sex">
+            <label for="">Ne se prononce pas</label><input type="radio" name="sex">
+            <label for="">Prénom</label><input type="text">
+            <label for="">Nom</label><input type="text">
+            <label for="">Adresse</label><input type="text">
+            <label for="">E-mail</label><input type="email">
+            <label for="">Mot de passe :</label><input type="password">
+            <label for="">Conf de mot de passe :</label><input type="password">
+            <label for="">Informatique</label><input type="checkbox">
+            <label for="">Sport</label><input type="checkbox">
+            <label for="">Voyages</label><input type="checkbox">
+            <label for="">Lecture</label><input type="checkbox">
+            <input type="submit" value="Envoyer !">
+        </form>
     </main>
     <footer class="bg-green-400">
         <div class="p-8">
